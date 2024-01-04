@@ -12,7 +12,7 @@ const useTimer = ({ initialTime, onTimerEnd, formate }: IUseTimerProps) => {
   const [isRunning, setIsRunning] = useState(true);
 
   useEffect(() => {
-    let timerId: NodeJS.Timeout;
+    let timerId: any;
 
     if (isRunning) {
       timerId = setInterval(() => {
