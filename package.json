@@ -15,7 +15,7 @@
     "timer",
     "hook"
   ],
-  "author": "Your Name",
+  "author": "abhay jatav",
   "license": "MIT",
   "dependencies": {
     "moment": "^2.29.1",
@@ -24,5 +24,7 @@
   "devDependencies": {
     "@types/react": "^17.0.30",
     "typescript": "^4.5.5"
-  }
+  },
+  "description": "useTimer is a custom React Hook that provides functionality to manage a timer in a React application. This hook allows you to set an initial time, start, pause, reset the timer, and execute a callback when the timer reaches zero.",
+  "repository": "https://github.com/abhayjatav777/use-timer-hook.git"
 }
